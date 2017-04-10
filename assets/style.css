@@ -1,0 +1,538 @@
+body{
+background-image:url('layout/dark_background.jpg');
+margin:0px;
+padding:0px;
+}
+
+header{
+height: 100px;
+position: fixed;
+top:0px;
+right:0px;
+left: 0px;
+z-index:1;
+background-image:url('layout/dark_background.jpg');
+border-bottom: 2px solid #ffffff;
+}
+
+footer{
+background-image:url('layout/dark_background.jpg');
+text-align:center;
+color:#ffffff;
+}
+
+.h2title{
+margin:25px;
+margin-bottom:0px;
+color: #ffffff;
+}
+
+.page-width{
+width: 100%;
+height: 100%
+margin: auto;
+position: relative;
+}
+
+.container_gamelist{
+margin-top: 55px;
+}
+
+.container{
+margin-top: 55px;
+min-height: 500px;
+}
+
+.container_texts{
+padding-top: 45px;
+}
+
+.logo{
+text-decoration: none;
+height: 100px;
+width: 25%;
+background: url('layout/logo.jpg') center center no-repeat;
+background-size: contain;
+display: block;
+float: left;
+}
+
+nav{
+width: 75%;
+float: right;
+height: 100px;
+}
+
+.pull-left{
+float: left;
+}
+
+.pull-right{
+float: right;
+}
+
+.button{
+border-radius: 2px;
+background-color: #a9d6e8;
+border: 1px solid #000000;
+color: #000000;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+box-shadow: 0 1px 2px 0 rgba(0,0,0,0.11),inset 0 0 1px 1px rgba(255,255,255,0.12);
+display: block;
+padding: 5px 17px;
+text-decoration: none;
+}
+
+.button_game{
+padding-left: 160px;
+padding-top: 20px;
+}
+
+.button:hover {
+background-color: #ffffff;
+}
+
+.feature_game_image{
+min-width: 100%;
+height: 600px;
+background: url('images/Persona_5_banner.jpg') no-repeat center center;
+background-size: cover;
+position: relative;
+}
+
+nav ul {
+float: right;
+list-style-type: none;
+margin:0px;
+}
+
+nav ul li {
+float: left;
+}
+
+nav ul li a{
+padding: 39px 10px;
+text-decoration: none;
+display: block;
+color: #ffffff;
+font-size: 20px;
+}
+
+nav ul li a:hover{
+background: rgba(255,255,255,0.2);
+}
+
+.mobilemenu{
+display: block !important;
+position: absolute;
+left: 25px;
+right: 25px;
+top: 102px;
+max-width: 350px;
+margin: auto;
+}
+
+.mobilemenu li {
+width: 100%;
+}
+
+.mobilemenu li a{
+background: #000000;
+padding: 10px;
+text-align: center;
+border-bottom: 4px solid rgba(255,255,255,0.2);
+}
+
+.mobilemenu li a:hover{
+border: 1px solid #ffffff;
+background: #000000;
+}
+
+.game_search_container{
+margin: 20px;
+margin-top: 150px;
+}
+
+.search{
+background: rgba(255,255,255,0.7);
+padding: 10px;
+border-radius: 2px;
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+}
+
+.search:hover{
+background: rgba(255,255,255,0.9);
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.9);
+}
+
+.search table{
+border: 0px;
+width: 100%;
+}
+
+.search td:nth-of-type(2){
+width: 100%;
+}
+
+.search select{
+padding: 5px;
+padding-left:0px;
+border: 1px solid #eee;
+width: 100%;
+background: rgba(255,255,255,0.6);
+}
+
+.search select:hover{
+border: 1px solid #ccc;
+background: rgba(255,255,255,0.9);
+}
+
+.half-size{
+width: 50% !important;
+float: left;
+}
+
+.full-size{
+width: 100%;
+
+}
+
+.auto-size{
+width: auto;
+display: inline-block;
+}
+
+.cover{
+float: left;
+width: 33.33333332%;
+}
+
+.search_option{
+float: left;
+width: 33.3%;
+}
+
+.search_option_text{
+float: left;
+width: 33.3%;
+padding-top: 7px
+}
+
+.game_details{
+float: left;
+width: 66.66666665%;
+}
+
+
+.homepage_featured_game{
+color: #fff;
+text-shadow: 0 1px 0 rgba(0,0,0,0.9);
+position: absolute;
+top: 350px;
+left: 5px;
+text-align: center;
+}
+
+.game-container{
+background: #fff;
+box-shadow:0px 2px 5px rgba(0,0,0,.3);
+float: left;
+padding: 0px;
+width: 100%;
+overflow: hidden;
+margin-bottom: 18px;
+opacity: 0.95;
+box-sizing: content-box;
+}
+
+.game-container:hover{
+opacity: 1;
+box-shadow:0px 2px 10px rgba(0,0,0,.6);
+}
+
+.game-container .game-photo{
+display: block;
+height: 225px;
+width: 100%;
+background-position: center center;
+background-size: cover;
+border: 1px solid #E4E4E4;
+opacity: 0.95;
+position: relative;
+}
+
+.game-container:hover .game-photo{
+opacity: 1;
+}
+
+.game-container:hover .game-photo .game-hover{
+opacity:1;
+}
+
+.game-container:hover .game-photo .game-hover-txt{
+opacity:1;
+}
+
+.game-container .game-photo:hover{
+text-decoration: none;
+}
+
+.game-discount{
+position: absolute;
+left:-6px;
+top: 5px;
+border-bottom:1px solid rgba(0,0,0,0.3);
+}
+
+.game-discount .square {
+float:left;
+}
+
+.game-discount .triangle-left{
+float:left;
+}
+
+.game-container h5{
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+font-size: 13pt;
+color: #000;
+padding: 3px 10px;
+padding-right: 15px;
+text-align: center;
+}
+
+.game-container h5 a:hover{
+text-decoration: none;
+}
+
+
+.game-container .game-details{
+position: absolute;
+color: #ffffff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 1);
+right: 0px;
+left: 0px;
+padding: 10px;
+bottom: 0px;
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+}
+
+.game-container h5 a{
+color: #000000;
+text-decoration: none;
+}
+
+.game-discount .square span {
+padding: 5px 10px 5px 15px;
+background-color: #fce359;
+background-image: -webkit-linear-gradient(#fce359, #fed231);
+background-image: linear-gradient(#fce359, #fed231);
+border: 1px solid #e5b50f;
+display: block;
+float:left;
+color: #333;
+}
+
+.pad25{
+padding: 25px;
+}
+
+.clear{
+clear: both;
+}
+
+
+.loginpage{
+background: url("images/login_background.jpg") center top no-repeat;
+background-size: cover;
+padding-top: 100px;
+}
+
+.contactUs{
+background: url("images/contact_us.jpg") center top no-repeat;
+background-size: cover;
+min-height: 600px;
+padding-top: 100px;
+}
+
+.game_page{
+background: url("images/dark_background.jpg") center top no-repeat;
+background-size: cover;
+min-height: 800px;
+padding-top: 50px;
+background-attachment: fixed;
+}
+
+#screenshot{
+position: relative;
+height: 450px;
+overflow: hidden;
+}
+
+
+#screenshot img{
+width: 100%;
+transition: none;
+position:absolute;
+display: none;
+}
+
+#screenshot .first-screenshot{
+display: block;
+}
+
+.game_title{
+float: left;
+font-size: 18pt;
+margin: 10px 0px;
+}
+
+.game-screenshot-slide{
+position: absolute;
+right:-6px;top: 50%;
+border-bottom: 1px solid rgba(0,0,0,0.3);
+z-index: 99;
+cursor: pointer;
+opacity: 0.5;
+}
+
+.game-screenshot-slide:hover{
+opacity: 1;
+}
+
+.game-screenshot-slide .square {
+float:right;
+}
+
+.game-screenshot-slide .square span {
+background-color: #fce359;
+background-image: -webkit-linear-gradient(#fce359, #fed231);
+background-image: linear-gradient(#fce359, #fed231);
+border: 1px solid #e5b50f;
+padding: 5px 15px 5px 10px;
+display: block;
+float:left;
+color: #333;
+}
+
+.game_cover {
+top: 10px;
+padding: 40px;
+position: relative;
+}
+
+.game_cover img{
+width: 80%;
+border: 3px solid #ddd;
+}
+
+.contact_message{
+padding: 100px;
+text-align: center;
+color: #000000;
+text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+background: url('layout/bubble2.png') center center no-repeat;
+background-size: contain;
+}
+
+.game_description{
+background: rgba(255,255,255,0.85);
+border: 4px solid #fff;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.5), 0px 0px 10px rgba(0,0,0,0.2) inset;
+margin: 10px;
+border-radius: 4px;
+padding: 20px;
+}
+
+.login_register_details{
+width: 100%;
+max-width: 500px;
+background: rgba(255,255,255,0.85);
+border: 4px solid #000000;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.5), 0px 0px 10px rgba(0,0,0,0.5) ;
+margin: auto;
+border-radius: 4px;
+padding: 20px;
+}
+
+.login_register_details h2{
+margin:0px;
+padding:0px;
+display: block;
+margin-bottom:20px;
+}
+
+.login_input label{
+font-size: 12pt;
+}
+
+.login_input textarea{
+min-height: 200px;
+}
+
+.login_input input, .login_input select, .login_input textarea{
+width: 100%;
+padding: 5px;
+box-sizing: border-box;
+margin: 3px 0px;
+margin-bottom: 8px;
+border: 1px solid #000000;
+}
+
+.login_input input:focus, .login_input select:focus, .login_input input:hover, .login_input select:hover{
+background-color: rgba(255,255,255,1);
+border: 1px solid #555;
+}
+
+.login_input .header_special_button{
+margin-top:10px;
+padding: 10px;
+box-sizing: border-box;
+height: 40px;
+}
+
+@media (max-width: 800px){
+
+.pad5{
+padding: 10px;
+}
+
+.logo{
+text-decoration: none;
+height: 80px;
+margin-top: 10px;
+width: 50%;
+background-image: url('layout/logomobile.png');
+}
+
+nav{
+width: 50%;
+}
+
+nav ul{
+display: none;
+}
+
+.menubutton{
+background: url('layout/menu.png') no-repeat center center;
+display: block;
+cursor: pointer;
+width: 40px;
+height: 20px;
+background-size: contain;
+margin: 15px;
+float: right;
+margin-top: 29px;
+}
+
+.home_page_search_container{
+right: 20px;
+width: auto;
+left: 20px;
+}
+
+.full-mobile{
+width: 100% !important;
+}
